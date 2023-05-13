@@ -28,22 +28,22 @@ We introduce a novel finetuning method **Layer Variation Analysis** (LVA) for tr
 - [Exp. 3] `SRCNN_pretraining.py`
 
 ## Transfer Learning to target domain & Compare finetune models
-- [Exp. 1] `GD_1layer_finetuning.py` & `model_comparison_1layer.py` (resp. `GD_2layer_finetuning.py` & `model_comparison_2layer.py`)
+- [Exp. 1] `GD_finetune_1layer.py` & `GD_vs_LVA_1layer.py`
 - [Exp. 2] `SE_finetuning_and_comparison.py`
-- [Exp. 3] `SRCNN_finetuning.py` & `SRCNN_model_comparisons.py`
+- [Exp. 3] `SRCNN_GD_finetuning.py` & `SRCNN_LVA_comparisons.py`
 
 
 
 ## Prerequisites
 - [Python 3.8](https://www.python.org/)
-- [PyTorch 1.10](https://pytorch.org/)
-- [librosa 0.8.1](https://librosa.org/doc/latest/index.html)
+- [PyTorch 2.0.1](https://pytorch.org/)
+- [librosa 0.10.0](https://librosa.org/doc/latest/index.html)
 - [pypesq 1.2.4](https://pypi.org/project/pypesq/)
 - [pystoi 0.3.3](https://pypi.org/project/pystoi/)
-- [Tensorboard 2.7.0](https://pypi.org/project/tensorboard/)
-- [scikit-learn 1.0.1](https://pypi.org/project/scikit-learn/)
-- [tqdm 4.62.3](https://pypi.org/project/tqdm/)
-- [scipy 1.8.0](https://pypi.org/project/scipy/)
+- [Tensorboard 2.13.0](https://pypi.org/project/tensorboard/)
+- [scikit-learn 1.2.2](https://pypi.org/project/scikit-learn/)
+- [tqdm 4.65.0](https://pypi.org/project/tqdm/)
+- [scipy 1.10.1](https://pypi.org/project/scipy/)
 
 
 ## Hardware
